@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    height: 1000px;
+}
+
+ #main ul{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: chocolate;
+    position: relative;
+    
+}
+#main ul li {
+    list-style: none;
+}
+#main ul li:hover{
+    color:cyan;
+    display: block;
+}
+
+#img{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./photo-1549287748-f095932c9f81.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#img2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../practice/photo-1562408590-e32931084e23.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
